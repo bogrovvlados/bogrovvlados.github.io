@@ -1,0 +1,59 @@
+body{
+    padding: 50px;
+    height: 2000px;
+    
+}
+.mainblock{
+    border: 2px solid red;
+    height: 800px;
+    width: 800px;
+    margin: 0px auto;
+    position: relative;
+}
+.mainblock div{
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.block1{
+    background-color:cadetblue;
+    position: relative;
+    left:10px;
+    top: 10px;
+    z-index: 101;
+}
+.block2{
+    background-color: aquamarine;
+    position: relative;
+    z-index: 100;
+}
+.block3{
+    background-color:chocolate;
+    position: absolute;
+    top: 0px;
+    left: 0px;      
+}
+.block4{
+    background-color:darkblue; 
+}
+.block5{
+    background-color:coral;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 300;
+}
+.block6{
+    background-color: burlywood;
+  position: sticky;
+     top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 300;
+    
+}
+.block7{
+    background-color:chartreuse;
+}

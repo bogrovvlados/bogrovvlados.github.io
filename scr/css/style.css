@@ -1,0 +1,62 @@
+div{
+    font-size: 20px; размер шрифта
+    font-family: Arial; тип шрифта
+    font-style: italic; курсив
+    font-weight: 800; жирность
+   text-align: center; выравнивание текста
+ text-decoration:overline; подчеркивание надчеркивание
+    text-shadow: 1px 1px 2px #000;
+                 y    x   размытость и цвет
+    text-transform: uppercase; делает текст капсом можно прописными или все слова с заглавной буквы
+      text-indent: 50px; отступ красная строка
+    letter-spacing: 5px; между  буквами промежуток
+    line-height: 5px; отступы между строк
+    white-space: nowrap; без переносов текст и появляется прокрутка в браузере
+    word-spacing: 10px; промежуток между словами
+    border: 1px solid #000; обводка блок
+    margin: 10px; отступ от всех сторон снаружи
+    padding: 10px; отступ внутри от всех сторон
+    margin: 10px 10px 10px 10px; можно выборочно сделать отступы также и с паддингом
+    width: 100px; ширина
+    height: 100px; высота
+    max-height: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    min-width: 100px;
+    overflow: scroll; если текст вылазиет из бордера то он используется
+    display: block; делает из строчного тега в блочный очень полезно
+    если display: inline-block; то какбы это блок но после него идет строчный элемент
+    box-sizing: border-box; желательно писать после каждого бордера
+    border-radius: 25px; скругливаются края
+    outline: 1px solid #000; обводка 
+    box-shadow: 1px 1px 5px #000; обводка
+                обводка смещение размытие
+    opacity: 1; элемент не прозрачности
+    visibility: hidden; скрывает блок
+    background-color: rgba(25,25,25,1);
+    background-image: url("../img/i.webp"); можно вставить картинку
+    background-repeat: no-repeat; картинка не повторяется
+    background-repeat: repeat-x;
+    background-repeat: round; подгоняет по размеру
+    background-position: ; позиция заднего фона
+    background-attachment: fixed; эта хуйня нужна для прокрутки сайта предварительно в документе html нужно бр умножить на 100
+    чтобы фон оставался на месте и прокручивался
+    background-size: 100% 100%;
+    
+    
+    
+}
+span{
+    color: blue;
+  
+}
+.text{
+    color:red;
+}
+[custom_data=""]{
+    color:darkgoldenrod;
+}
+
+
+
+раздел пятый
